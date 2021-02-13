@@ -1,0 +1,50 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+}
+body{
+    min-height: 200vh;
+    background-color: #4e3986; 
+}
+.svg-container{
+    min-height: 100vh;
+    max-height: 150vh;
+    width: 100vw;
+    /* border: 5px solid red; */
+    overflow: hidden;
+    display: flex;
+   /* align-items: center; */
+    justify-content: center;
+}
+.night-svg{
+    width: 100vw;
+    /* border: 5px solid green; */
+    margin-top: 30vh;
+}
+svg #stars g defs circle{
+    animation: blink 5s infinite alternate;
+    transform-origin: center;
+}
+
+svg #witch {
+ /* transform-origin: center; */
+    animation: movewitch 6s infinite ease-out;
+}
+@keyframes blink{
+    from{
+        transform: scale(0) rotateZ(0deg);
+    }
+    to{
+        transform: scale(1) rotateZ(90deg);
+    }
+}
+@keyframes movewitch{
+    from{
+        transform: rotateX(0deg) translateX(300px) rotateZ(0deg) translateY(-0px) scale(0.85);
+    }
+    to{
+        transform: translateX(-800px) translateY(400px) rotateX(-40deg) rotateZ(-40deg) scale(0.5);
+    }
+}
+/* witch,buildings,insidebuildings,stars,blue */
