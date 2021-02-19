@@ -4,10 +4,9 @@ var tl = gsap.timeline({scrollTrigger:{
     trigger:'.svg-container',
     start:'0% 0%',
     end:'85% 0%',
-    // pin:'.night-svg',
     pin:'.svg-container',
 //     pinSpacing:true,
-    scrub:true,
+    scrub:0.65,
 //     markers:true,
     immediateRender:false
 }})
@@ -24,8 +23,6 @@ tl.to('svg #buildings',1, {scale:1.5,y:'145%', transformOrigin:'center'},'-=1.25
 tl.to('svg #insidebuildings',1, {scale:1.5,y:'135%', transformOrigin:'center'},'-=1.25')
 tl.to('svg #stars',0.75, {scale:2.5,alpha:0,y:'-100%',transformOrigin:'center'})
 tl.to('svg #witch', 0.5,{scale:0,alpha:0,transformOrigin:'center'},'-=0.75')
-
-
 tl.to('.night-svg svg #blue circle',0.25, {fill:'#F5F2E9',scale:0,transformOrigin:'center'},'-=.75')
 tl.to('.intro h2', 0.1, {color:'#47484b'},'-=0.75')
 tl.fromTo('.s1', 0.25, {opacity:0,y:-20}, {color:'white',opacity:0.9,y:'2vh'})
