@@ -26,6 +26,9 @@ body{
     /* color: #000000d0; */
     color: rgb(200, 172, 212);
 }
+.intro h2{
+   margin-top:5vh;
+}
 .text{
     position: absolute;
     opacity: 0;
