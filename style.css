@@ -4,7 +4,7 @@
    box-sizing: border-box; 
 }
 body{
-    min-height: 700vh;
+    min-height: 800vh;
     /* background-color: #461b69; */
     background-color: #ffffff;
     overflow-x: hidden;
