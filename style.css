@@ -4,23 +4,43 @@
    box-sizing: border-box; 
 }
 body{
-    min-height: 200vh;
-    background-color: #4e3986; 
+    min-height: 300vh;
+    /* background-color: #461b69; */
+    /* background-color: #b5dbff; */
+    overflow-x: hidden;
 }
 .svg-container{
     min-height: 100vh;
-    max-height: 150vh;
+    background-color: #312975;
     width: 100vw;
-    /* border: 5px solid red; */
-    overflow: hidden;
+    /* border: 5px solid rgb(206, 206, 206); */
     display: flex;
-   /* align-items: center; */
+    flex-direction: column;
     justify-content: center;
+    align-content: center;
+}
+.intro{
+    margin-top: 0vh;
+    font-size: 1.5rem;
+    text-align: center;
+    /* color: #000000d0; */
+    color: rgb(200, 172, 212);
+}
+.text{
+    position: absolute;
+    opacity: 0;
+    padding: 1rem;
+    /* top:50vh; */
+}
+.text h2{
+    font-size: 2rem;
 }
 .night-svg{
+    /* border: 5px solid red; */
     width: 100vw;
-    /* border: 5px solid green; */
-    margin-top: 30vh;
+    margin: 20px 0;
+    /* overflow:visible; */
+    /* overflow-x: hidden; */
 }
 svg #stars g defs circle{
     animation: blink 5s infinite alternate;
@@ -48,3 +68,24 @@ svg #witch {
     }
 }
 /* witch,buildings,insidebuildings,stars,blue */
+
+ 
+@media only screen and (min-width: 800px){
+    .svg-container{
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .intro{
+        display: grid;
+        place-items: center;
+        min-height: 100vh;
+    }
+    .night-svg{
+        width:50vw;
+        margin: 0;
+    }
+    .text{
+        top:40vh;
+        max-width: 50%;
+    }
+} 
