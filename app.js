@@ -3,7 +3,7 @@ gsap.registerPlugin(TextPlugin);
 var tl = gsap.timeline({scrollTrigger:{
     trigger:'.svg-container',
     start:'0% 0%',
-    end:'+=350vh 0%',
+    end:'+=4500 0%',
     pin:'.svg-container',
 //     pinSpacing:true,
     scrub:0.65,
