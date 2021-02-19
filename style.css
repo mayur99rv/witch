@@ -4,18 +4,18 @@
    box-sizing: border-box; 
 }
 body{
-    min-height: 400vh;
+    min-height: 600vh;
     /* background-color: #461b69; */
     background-color: #ffffff;
     overflow-x: hidden;
 }
 .svg-container{
-    height: 300vh;
+    height: 500vh;
 /*    max-height:310vh; */
     background-color: #312975;
     width: 100vw;
     overflow: hidden;
-    /* border: 5px solid rgb(206, 206, 206); */
+    border: 5px solid rgb(206, 206, 206);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
