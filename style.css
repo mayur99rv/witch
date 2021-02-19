@@ -10,7 +10,7 @@ body{
     overflow-x: hidden;
 }
 .svg-container{
-    min-height: 100vh;
+    min-height: 300vh;
     background-color: #312975;
     width: 100vw;
     /* border: 5px solid rgb(206, 206, 206); */
