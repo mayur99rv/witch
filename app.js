@@ -35,4 +35,4 @@ tl.fromTo('.s4', 0.7, {opacity:0,y:-20}, {color:'white',opacity:0.9,y:'2vh'})
 tl.to('.s4',0.15,{alpha:1,scale:1.15, x:20})
 tl.to('.svg-container',0.1, {backgroundColor:'#001E43'},'-=0.15')
 tl.to('.intro h2', 0.1, {alpha:0},'-=0.15')
-tl.to('.svg-container',0.2,{height:'120vh'})
+
