@@ -11,6 +11,7 @@ body{
 }
 .svg-container{
     min-height: 300vh;
+   max-height:310vh;
     background-color: #312975;
     width: 100vw;
     overflow-x: hidden;
