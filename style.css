@@ -4,14 +4,14 @@
    box-sizing: border-box; 
 }
 body{
-    min-height: 300vh;
+    min-height: 400vh;
     /* background-color: #461b69; */
-    /* background-color: #b5dbff; */
+    background-color: #fff;
     overflow-x: hidden;
 }
 .svg-container{
-    min-height: 300vh;
-   max-height:310vh;
+    height: 300vh;
+/*    max-height:310vh; */
     background-color: #312975;
     width: 100vw;
     overflow-x: hidden;
