@@ -5,9 +5,9 @@ var tl = gsap.timeline({scrollTrigger:{
     start:'0% 0%',
     end:'+=4000 0%',
     pin:'.svg-container',
-//     pinSpacing:true,
+    pinSpacing:true,
     scrub:0.65,
-//     markers:true,
+    markers:true,
     immediateRender:false
 }})
 tl.set('.night-svg', {transformOrigin:'center top'})
