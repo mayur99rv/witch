@@ -7,7 +7,7 @@ body{
     min-height: 300vh;
     /* background-color: #461b69; */
     /* background-color: #b5dbff; */
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .svg-container{
     min-height: 300vh;
